@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # bin/detect <build-dir>
 
-if [ -f $1/test.sh ]; then
-  echo "RunBash" && exit 0
+if [ -f $1/start.sh ]; then
+  echo "== Running start script ==" && exit 0
 else
   echo "no" && exit 1
 fi
